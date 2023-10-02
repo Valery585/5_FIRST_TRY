@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -160,6 +160,35 @@
 <rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
 </package>
 <package name="DIP-8">
+<wire x1="-2.032" y1="1.9558" x2="2.032" y2="1.9558" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.9558" x2="-2.032" y2="-1.9558" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.5748" x2="2.413" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.5748" x2="-2.413" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="0.508" x2="-2.413" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.508" x2="-2.413" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="0.508" x2="-2.413" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.413" y1="1.5748" x2="-2.032" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.032" y1="1.9558" x2="2.413" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.413" y1="-1.5748" x2="2.032" y2="-1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.032" y1="-1.9558" x2="-2.413" y2="-1.5748" width="0.1524" layer="21" curve="-90"/>
+<smd name="8" x="-1.778" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="-0.59181875" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="0.59181875" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="1.778" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="0.59181875" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="1.778" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="1" x="-1.778" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-0.59181875" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<rectangle x1="-2.032" y1="1.9558" x2="-1.524" y2="3.0988" layer="51"/>
+<rectangle x1="-0.84581875" y1="1.9558" x2="-0.33781875" y2="3.0988" layer="51"/>
+<rectangle x1="0.33781875" y1="1.9558" x2="0.84581875" y2="3.0988" layer="51"/>
+<rectangle x1="1.524" y1="1.9558" x2="2.032" y2="3.0988" layer="51"/>
+<rectangle x1="-2.032" y1="-3.0988" x2="-1.524" y2="-1.9558" layer="51"/>
+<rectangle x1="-0.84581875" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
+<rectangle x1="0.33781875" y1="-3.0988" x2="0.84581875" y2="-1.9558" layer="51"/>
+<rectangle x1="1.524" y1="-3.0988" x2="2.032" y2="-1.9558" layer="51"/>
+<text x="-3" y="-3" size="1.4" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.5" y="-0.5" size="0.7" layer="27">&gt;VALUE</text>
 </package>
 <package name="SOIC-8">
 </package>
@@ -215,11 +244,11 @@
 </deviceset>
 <deviceset name="74HC00" prefix="DD">
 <gates>
-<gate name="B" symbol="NAND" x="-25.4" y="12.7" swaplevel="1"/>
-<gate name="C" symbol="NAND" x="-25.4" y="-12.7" swaplevel="1"/>
-<gate name="A" symbol="NAND" x="-25.4" y="38.1" swaplevel="1"/>
-<gate name="P" symbol="PWR-PIN" x="10.16" y="0"/>
-<gate name="D" symbol="NAND" x="-25.4" y="-38.1" swaplevel="1"/>
+<gate name="A" symbol="NAND" x="-33.02" y="30.48" swaplevel="1"/>
+<gate name="B" symbol="NAND" x="-33.02" y="10.16" swaplevel="1"/>
+<gate name="C" symbol="NAND" x="-33.02" y="-10.16" swaplevel="1"/>
+<gate name="D" symbol="NAND" x="-33.02" y="-30.48" swaplevel="1"/>
+<gate name="P" symbol="PWR-PIN" x="15.24" y="0"/>
 </gates>
 <devices>
 <device name="DIP14" package="DIL14">

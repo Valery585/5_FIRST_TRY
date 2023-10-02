@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -87,7 +87,7 @@
 <text x="-3.3" y="2.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-3.65" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1">
+<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1" locally_modified="yes">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
@@ -111,6 +111,8 @@
 <pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<dimension x1="8.89" y1="2.921" x2="8.89" y2="-2.921" x3="11" y3="0" textsize="1.778" layer="21"/>
+<dimension x1="8.89" y1="2.921" x2="-8.89" y2="2.921" x3="0" y3="-10" textsize="1.778" layer="21"/>
 </package>
 <package name="SO14" urn="urn:adsk.eagle:footprint:970/1">
 <description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
@@ -158,21 +160,8 @@
 <rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
 </package>
 <package name="DIP-8">
-<wire x1="-5.08" y1="2.92" x2="-5.08" y2="-2.92" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.92" x2="5.08" y2="-2.92" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.92" x2="5.08" y2="2.92" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.92" x2="-5.08" y2="2.92" width="0.1524" layer="21"/>
-<wire x1="-5" y1="1" x2="-5" y2="-1" width="0.1524" layer="21" curve="-180"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-6" y="-5" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3" y="-0.5" size="1.4" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOIC-8">
 </package>
 </packages>
 <symbols>

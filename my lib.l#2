@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -161,6 +161,8 @@
 </package>
 <package name="DIP-8">
 </package>
+<package name="SOIC-8">
+</package>
 </packages>
 <symbols>
 <symbol name="ONE">
@@ -213,11 +215,11 @@
 </deviceset>
 <deviceset name="74HC00" prefix="DD">
 <gates>
-<gate name="B" symbol="NAND" x="-25.4" y="12.7" swaplevel="1"/>
-<gate name="C" symbol="NAND" x="-25.4" y="-12.7" swaplevel="1"/>
-<gate name="A" symbol="NAND" x="-25.4" y="38.1" swaplevel="1"/>
-<gate name="P" symbol="PWR-PIN" x="10.16" y="0"/>
-<gate name="D" symbol="NAND" x="-25.4" y="-38.1" swaplevel="1"/>
+<gate name="A" symbol="NAND" x="-33.02" y="30.48" swaplevel="1"/>
+<gate name="B" symbol="NAND" x="-33.02" y="10.16" swaplevel="1"/>
+<gate name="C" symbol="NAND" x="-33.02" y="-10.16" swaplevel="1"/>
+<gate name="D" symbol="NAND" x="-33.02" y="-30.48" swaplevel="1"/>
+<gate name="P" symbol="PWR-PIN" x="15.24" y="0"/>
 </gates>
 <devices>
 <device name="DIP14" package="DIL14">
