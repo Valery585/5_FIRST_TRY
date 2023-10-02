@@ -224,13 +224,13 @@
 <connect gate="B" pin="IN1" pad="4"/>
 <connect gate="B" pin="IN2" pad="5"/>
 <connect gate="B" pin="OUT" pad="6"/>
-<connect gate="C" pin="IN1" pad="7"/>
-<connect gate="C" pin="IN2" pad="8"/>
-<connect gate="C" pin="OUT" pad="9"/>
-<connect gate="D" pin="IN1" pad="10"/>
-<connect gate="D" pin="IN2" pad="11"/>
-<connect gate="D" pin="OUT" pad="12"/>
-<connect gate="P" pin="GND" pad="13"/>
+<connect gate="C" pin="IN1" pad="9"/>
+<connect gate="C" pin="IN2" pad="10"/>
+<connect gate="C" pin="OUT" pad="8"/>
+<connect gate="D" pin="IN1" pad="12"/>
+<connect gate="D" pin="IN2" pad="13"/>
+<connect gate="D" pin="OUT" pad="11"/>
+<connect gate="P" pin="GND" pad="7"/>
 <connect gate="P" pin="VCC" pad="14"/>
 </connects>
 <technologies>
@@ -245,13 +245,13 @@
 <connect gate="B" pin="IN1" pad="4"/>
 <connect gate="B" pin="IN2" pad="5"/>
 <connect gate="B" pin="OUT" pad="6"/>
-<connect gate="C" pin="IN1" pad="7"/>
-<connect gate="C" pin="IN2" pad="8"/>
-<connect gate="C" pin="OUT" pad="9"/>
-<connect gate="D" pin="IN1" pad="10"/>
-<connect gate="D" pin="IN2" pad="11"/>
-<connect gate="D" pin="OUT" pad="12"/>
-<connect gate="P" pin="GND" pad="13"/>
+<connect gate="C" pin="IN1" pad="9"/>
+<connect gate="C" pin="IN2" pad="10"/>
+<connect gate="C" pin="OUT" pad="8"/>
+<connect gate="D" pin="IN1" pad="12"/>
+<connect gate="D" pin="IN2" pad="13"/>
+<connect gate="D" pin="OUT" pad="11"/>
+<connect gate="P" pin="GND" pad="7"/>
 <connect gate="P" pin="VCC" pad="14"/>
 </connects>
 <technologies>

@@ -182,6 +182,13 @@
 <text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="PWR-PIN">
+<pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="5.08" size="1.778" layer="95">VCC</text>
+<text x="1.27" y="-6.35" size="1.778" layer="95">GND</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RONE" prefix="R">

@@ -207,6 +207,59 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="74HC00" prefix="DD">
+<gates>
+<gate name="B" symbol="NAND" x="-25.4" y="12.7" swaplevel="1"/>
+<gate name="C" symbol="NAND" x="-25.4" y="-12.7" swaplevel="1"/>
+<gate name="A" symbol="NAND" x="-25.4" y="38.1" swaplevel="1"/>
+<gate name="P" symbol="PWR-PIN" x="10.16" y="0"/>
+<gate name="D" symbol="NAND" x="-25.4" y="-38.1" swaplevel="1"/>
+</gates>
+<devices>
+<device name="DIP14" package="DIL14">
+<connects>
+<connect gate="A" pin="IN1" pad="1"/>
+<connect gate="A" pin="IN2" pad="2"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="B" pin="IN1" pad="4"/>
+<connect gate="B" pin="IN2" pad="5"/>
+<connect gate="B" pin="OUT" pad="6"/>
+<connect gate="C" pin="IN1" pad="7"/>
+<connect gate="C" pin="IN2" pad="8"/>
+<connect gate="C" pin="OUT" pad="9"/>
+<connect gate="D" pin="IN1" pad="10"/>
+<connect gate="D" pin="IN2" pad="11"/>
+<connect gate="D" pin="OUT" pad="12"/>
+<connect gate="P" pin="GND" pad="13"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SO14">
+<connects>
+<connect gate="A" pin="IN1" pad="1"/>
+<connect gate="A" pin="IN2" pad="2"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="B" pin="IN1" pad="4"/>
+<connect gate="B" pin="IN2" pad="5"/>
+<connect gate="B" pin="OUT" pad="6"/>
+<connect gate="C" pin="IN1" pad="7"/>
+<connect gate="C" pin="IN2" pad="8"/>
+<connect gate="C" pin="OUT" pad="9"/>
+<connect gate="D" pin="IN1" pad="10"/>
+<connect gate="D" pin="IN2" pad="11"/>
+<connect gate="D" pin="OUT" pad="12"/>
+<connect gate="P" pin="GND" pad="13"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
