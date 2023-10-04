@@ -111,17 +111,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="RCS2512">
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<pin name="P$1" x="-10.16" y="0" visible="off" length="middle"/>
-<pin name="P$2" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
-<text x="-2.54" y="0" size="1" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="R0603">
+<symbol name="RESISTOR">
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
@@ -141,44 +131,37 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RCS2512" prefix="R">
-<gates>
-<gate name="G$1" symbol="RCS2512" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RCS2512">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="R0603" prefix="R">
-<gates>
-<gate name="G$1" symbol="R0603" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="R0603">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="C1206" prefix="C">
 <gates>
 <gate name="G$1" symbol="C1206" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="C1206">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR" prefix="R">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2512" package="RCS2512">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
