@@ -89,6 +89,32 @@
 <text x="-2" y="1" size="0.8128" layer="25">&gt;NAME</text>
 <circle x="-1.7" y="-1" radius="0.3" width="0.1524" layer="21"/>
 </package>
+<package name="SOIC-8">
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.01890625" x2="-1.26890625" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.26890625" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="2.4" width="0.127" layer="21"/>
+<wire x1="2" y1="1.4" x2="2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="0.1" x2="2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.15" x2="2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.15" x2="-2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.1" x2="-2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.4" x2="-2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.4" x2="2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2.4" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-2.032" y="2.921" radius="0.3302" width="0" layer="21"/>
+<smd name="1" x="-2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<text x="-1.905" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39" rot="R270"/>
+<text x="-2.96" y="2.96" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CN3302">
