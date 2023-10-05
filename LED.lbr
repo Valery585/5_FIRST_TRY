@@ -75,31 +75,34 @@
 <packages>
 <package name="LED">
 <circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
-<pad name="2" x="-1.27" y="0" drill="0.5"/>
-<pad name="1" x="1.27" y="0" drill="0.5"/>
+<pad name="2" x="-1.27" y="0" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="1.27" y="0" drill="0.7" diameter="1.4224"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-4.191" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
 <symbol name="LED">
-<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.556" y1="3.81" x2="-5.334" y2="5.588" width="0.254" layer="94"/>
-<wire x1="-5.334" y1="5.588" x2="-4.572" y2="4.572" width="0.254" layer="94"/>
-<wire x1="-4.572" y1="4.572" x2="-4.318" y2="4.826" width="0.254" layer="94"/>
-<wire x1="-4.318" y1="4.826" x2="-5.334" y2="5.588" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="4.826" x2="-4.064" y2="6.604" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="6.604" x2="-3.302" y2="5.588" width="0.254" layer="94"/>
-<wire x1="-3.302" y1="5.588" x2="-3.048" y2="5.842" width="0.254" layer="94"/>
-<wire x1="-3.048" y1="5.842" x2="-4.064" y2="6.604" width="0.254" layer="94"/>
-<pin name="OUT" x="-7.62" y="0" visible="pad" length="middle" direction="out"/>
-<pin name="IN" x="7.62" y="0" visible="pad" length="middle" direction="in" rot="R180"/>
-<text x="-2.54" y="3.556" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-0.254" y1="0" x2="2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.524" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.524" x2="-0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-1.524" width="0.254" layer="94"/>
+<pin name="катод" x="-2.54" y="0" visible="pad" length="short" direction="out"/>
+<pin name="анод" x="5.08" y="0" visible="pad" length="short" direction="in" rot="R180"/>
+<text x="0" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="2.54" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="-2.794" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="3.048" x2="-2.032" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="2.032" x2="-1.778" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.286" x2="-2.794" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0.254" y1="2.286" x2="-1.524" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="4.064" x2="-0.762" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="3.048" x2="-0.508" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="3.302" x2="-1.524" y2="4.064" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -110,8 +113,8 @@
 <devices>
 <device name="" package="LED">
 <connects>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="анод" pad="1"/>
+<connect gate="G$1" pin="катод" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
