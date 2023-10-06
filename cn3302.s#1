@@ -75,21 +75,22 @@
 <libraries>
 <library name="1_MICRO">
 <packages>
-<package name="CN3302">
-<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.1524" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0.1524" layer="21"/>
-<smd name="1" x="-1.905" y="-2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="-0.635" y="-2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="3" x="0.635" y="-2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="4" x="1.905" y="-2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="5" x="1.905" y="2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="6" x="0.635" y="2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="7" x="-0.635" y="2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="8" x="-1.905" y="2.75" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<text x="-2" y="1" size="0.8128" layer="25">&gt;NAME</text>
-<circle x="-1.7" y="-1" radius="0.3" width="0.1524" layer="21"/>
+<package name="SOP-8">
+<wire x1="-2.5" y1="2" x2="-2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2" x2="-2.5" y2="2" width="0.127" layer="21"/>
+<smd name="8" x="-1.905" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="7" x="-0.635" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="6" x="0.635" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.905" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<circle x="-3.5" y="-2" radius="0.4" width="0.127" layer="21"/>
+<text x="-2" y="0" size="0.8128" layer="25">&gt;NAME</text>
+<text x="4" y="-2" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -115,7 +116,7 @@
 <gate name="CN3302" symbol="CN3302" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CN3302">
+<device name="SOP-8" package="SOP-8">
 <connects>
 <connect gate="CN3302" pin="BAT" pad="3"/>
 <connect gate="CN3302" pin="CE" pad="2"/>
@@ -550,7 +551,7 @@
 </class>
 </classes>
 <parts>
-<part name="M1" library="1_MICRO" deviceset="CN3302" device=""/>
+<part name="M1" library="1_MICRO" deviceset="CN3302" device="SOP-8"/>
 <part name="R1" library="1_RESISTORS" deviceset="RESISTOR" device="0603" value="500"/>
 <part name="R2" library="1_RESISTORS" deviceset="RESISTOR" device="0603" value="500"/>
 <part name="LED1" library="1_LED" deviceset="LED" device=""/>
