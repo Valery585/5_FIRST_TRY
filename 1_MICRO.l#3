@@ -115,23 +115,6 @@
 <rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39" rot="R270"/>
 <text x="-2.96" y="2.96" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="SOP-8">
-<wire x1="-2.5" y1="2" x2="-2.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="2.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2" x2="-2.5" y2="2" width="0.127" layer="21"/>
-<smd name="8" x="-1.905" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="7" x="-0.635" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="6" x="0.635" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="5" x="1.905" y="2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="1" x="-1.905" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="-0.635" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="3" x="0.635" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="4" x="1.905" y="-2.87" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<circle x="-3.5" y="-2" radius="0.4" width="0.127" layer="21"/>
-<text x="-2" y="0" size="0.8128" layer="25">&gt;NAME</text>
-<text x="4" y="-2" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="CN3302">
@@ -156,7 +139,7 @@
 <gate name="CN3302" symbol="CN3302" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOP-8" package="SOP-8">
+<device name="" package="CN3302">
 <connects>
 <connect gate="CN3302" pin="BAT" pad="3"/>
 <connect gate="CN3302" pin="CE" pad="2"/>

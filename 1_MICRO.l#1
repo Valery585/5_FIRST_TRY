@@ -156,6 +156,21 @@
 <gate name="CN3302" symbol="CN3302" x="0" y="0"/>
 </gates>
 <devices>
+<device name="" package="CN3302">
+<connects>
+<connect gate="CN3302" pin="BAT" pad="3"/>
+<connect gate="CN3302" pin="CE" pad="2"/>
+<connect gate="CN3302" pin="CSN" pad="8"/>
+<connect gate="CN3302" pin="GND" pad="4"/>
+<connect gate="CN3302" pin="HDRV" pad="6"/>
+<connect gate="CN3302" pin="LDRV" pad="5"/>
+<connect gate="CN3302" pin="STAT" pad="1"/>
+<connect gate="CN3302" pin="VIN" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="SOP-8" package="SOP-8">
 <connects>
 <connect gate="CN3302" pin="BAT" pad="3"/>
