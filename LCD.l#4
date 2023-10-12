@@ -115,8 +115,8 @@
 <hole x="-4.7" y="-28" drill="1"/>
 <hole x="5.3" y="-28" drill="1"/>
 <text x="-3.175" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-17.8" y1="0" x2="-6.8" y2="-16.4" width="0.1524" layer="21" curve="67.380135"/>
-<wire x1="17.8" y1="0" x2="6.8" y2="-16.4" width="0.1524" layer="21" curve="-67.380135"/>
+<wire x1="-17.8" y1="0" x2="-6.8" y2="-16.4" width="0.127" layer="21" curve="67.380135"/>
+<wire x1="17.8" y1="0" x2="6.8" y2="-16.4" width="0.127" layer="21" curve="-67.380135"/>
 </package>
 <package name="FR-128HR01A_FOLD">
 <wire x1="-17.8" y1="0" x2="17.8" y2="0" width="0.127" layer="21" curve="-180"/>
@@ -160,8 +160,8 @@
 <hole x="-4.7" y="-28" drill="1"/>
 <hole x="5.3" y="-28" drill="1"/>
 <text x="-3.175" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-17.8" y1="0" x2="-6.8" y2="-16.4" width="0.1524" layer="21" curve="67.380135"/>
-<wire x1="17.8" y1="0" x2="6.8" y2="-16.4" width="0.1524" layer="21" curve="-67.380135"/>
+<wire x1="-17.8" y1="0" x2="-6.8" y2="-16.4" width="0.127" layer="21" curve="67.380135"/>
+<wire x1="17.8" y1="0" x2="6.8" y2="-16.4" width="0.127" layer="21" curve="-67.380135"/>
 </package>
 </packages>
 <symbols>
