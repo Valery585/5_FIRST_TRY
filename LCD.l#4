@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -116,9 +116,27 @@
 <text x="-2.921" y="0.127" size="1.27" layer="25">&gt;NAME</text>
 <hole x="-4.7" y="-27" drill="1"/>
 <hole x="5.3" y="-27" drill="1"/>
+<text x="-3.175" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
+<symbol name="LCD">
+<wire x1="-5.08" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="-5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="22.86" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
+<pin name="VDD" x="-7.62" y="20.32" visible="pin" length="short"/>
+<pin name="LEDK" x="-7.62" y="15.24" visible="pin" length="short"/>
+<pin name="LEDA" x="-7.62" y="10.16" visible="pin" length="short"/>
+<pin name="D/C" x="-7.62" y="5.08" visible="pin" length="short"/>
+<pin name="CS" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="SCL" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<pin name="SDA" x="-7.62" y="-10.16" visible="pin" length="short"/>
+<pin name="RESET" x="-7.62" y="-15.24" visible="pin" length="short"/>
+<pin name="GND" x="-7.62" y="-20.32" visible="pin" length="short"/>
+<text x="-3.556" y="23.622" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.302" y="-25.4" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 </devicesets>
