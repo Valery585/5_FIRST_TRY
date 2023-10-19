@@ -123,40 +123,35 @@
 <wire x1="-6.4" y1="-20.1" x2="6.4" y2="-20.1" width="0.127" layer="21"/>
 <wire x1="-6.4" y1="-20.1" x2="-6.8" y2="-16.4" width="0.127" layer="21"/>
 <wire x1="6.4" y1="-20.1" x2="6.8" y2="-16.4" width="0.127" layer="21"/>
-<wire x1="5" y1="-19.7" x2="5.7" y2="-19.7" width="0.127" layer="21"/>
-<wire x1="5.7" y1="-19.7" x2="5.7" y2="-8.2" width="0.127" layer="21"/>
-<wire x1="-6.3" y1="-19.7" x2="-6.3" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-6.3" y1="-12.7" x2="-5.7" y2="-11.7" width="0.127" layer="21"/>
-<wire x1="-5.7" y1="-11.7" x2="-5.7" y2="-8.2" width="0.127" layer="21"/>
-<wire x1="-5.7" y1="-8.2" x2="-4.7" y2="-8.2" width="0.127" layer="21"/>
-<smd name="7" x="0.35" y="-8.5" dx="2.4" dy="0.35" layer="1" rot="R270"/>
-<smd name="6" x="-0.35" y="-8.2" dx="1.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="5" x="-1.05" y="-8.5" dx="2.4" dy="0.35" layer="1" rot="R270"/>
-<smd name="4" x="-1.75" y="-8.2" dx="1.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="3" x="-2.45" y="-8.5" dx="2.4" dy="0.35" layer="1" rot="R270"/>
-<smd name="2" x="-3.15" y="-8.2" dx="1.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="1" x="-3.85" y="-8.5" dx="2.4" dy="0.35" layer="1" rot="R270"/>
-<smd name="8" x="1.05" y="-8.2" dx="1.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="9" x="1.75" y="-8.5" dx="2.4" dy="0.35" layer="1" rot="R270"/>
-<smd name="10" x="2.45" y="-8.2" dx="1.8" dy="0.35" layer="1" rot="R270"/>
-<smd name="11" x="3.15" y="-8.5" dx="2.4" dy="0.35" layer="1" rot="R270"/>
-<smd name="12" x="3.85" y="-8.2" dx="1.8" dy="0.35" layer="1" rot="R270"/>
-<wire x1="-4.7" y1="-8.2" x2="4.8" y2="-8.2" width="0.127" layer="21"/>
-<wire x1="4.8" y1="-8.2" x2="5.7" y2="-8.2" width="0.127" layer="21"/>
-<wire x1="4.8" y1="-8.2" x2="4.8" y2="-10.2" width="0.127" layer="21"/>
-<wire x1="4.8" y1="-10.2" x2="-4.7" y2="-10.2" width="0.127" layer="21"/>
-<wire x1="-4.7" y1="-10.2" x2="-4.7" y2="-8.2" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-19.9" x2="-5.7" y2="-8.4" width="0.127" layer="21"/>
+<wire x1="6.3" y1="-19.9" x2="6.3" y2="-12.9" width="0.127" layer="21"/>
+<wire x1="6.3" y1="-12.9" x2="5.7" y2="-11.9" width="0.127" layer="21"/>
+<wire x1="5.7" y1="-11.9" x2="5.7" y2="-8.4" width="0.127" layer="21"/>
+<wire x1="5.7" y1="-8.4" x2="4.7" y2="-8.4" width="0.127" layer="21"/>
+<smd name="7" x="-0.35" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="6" x="0.35" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="5" x="1.05" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="4" x="1.75" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="3" x="2.45" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="2" x="3.15" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="1" x="3.85" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="8" x="-1.05" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="9" x="-1.75" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="10" x="-2.45" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="11" x="-3.15" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<smd name="12" x="-3.85" y="-8.7" dx="2.4" dy="0.35" layer="1" rot="R270"/>
+<wire x1="4.7" y1="-8.4" x2="-4.8" y2="-8.4" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-8.4" x2="-5.7" y2="-8.4" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-8.4" x2="-4.8" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-10.4" x2="4.7" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="4.7" y1="-10.4" x2="4.7" y2="-8.4" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="16.2" width="0.127" layer="21"/>
 <text x="-2.921" y="0.127" size="1.27" layer="25">&gt;NAME</text>
-<hole x="4.7" y="-12.7" drill="1"/>
-<hole x="-5.3" y="-12.7" drill="1"/>
+<hole x="-4.7" y="-12.9" drill="1"/>
+<hole x="5.3" y="-12.9" drill="1"/>
 <text x="-3.175" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-17.8" y1="0" x2="-6.8" y2="-16.4" width="0.127" layer="21" curve="67.380135"/>
 <wire x1="17.8" y1="0" x2="6.8" y2="-16.4" width="0.127" layer="21" curve="-67.380135"/>
-<wire x1="-6.3" y1="-19.7" x2="-3" y2="-19.7" width="0.127" layer="21"/>
-<wire x1="-3" y1="-19.7" x2="-3" y2="-20.7" width="0.127" layer="21"/>
-<wire x1="-3" y1="-20.7" x2="5" y2="-20.7" width="0.127" layer="21"/>
-<wire x1="5" y1="-20.7" x2="5" y2="-19.7" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -185,6 +180,22 @@
 </gates>
 <devices>
 <device name="" package="FR-128HR01A">
+<connects>
+<connect gate="G$1" pin="CS" pad="8"/>
+<connect gate="G$1" pin="D/C" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1 5 6 12"/>
+<connect gate="G$1" pin="LEDA" pad="3"/>
+<connect gate="G$1" pin="LEDK" pad="2"/>
+<connect gate="G$1" pin="RESET" pad="11"/>
+<connect gate="G$1" pin="SCL" pad="9"/>
+<connect gate="G$1" pin="SDA" pad="10"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FOLD" package="FR-128HR01A_FOLD">
 <connects>
 <connect gate="G$1" pin="CS" pad="8"/>
 <connect gate="G$1" pin="D/C" pad="7"/>

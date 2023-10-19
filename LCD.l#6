@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -82,14 +82,14 @@
 <wire x1="5.9" y1="-20.1" x2="6.8" y2="-16.4" width="0.127" layer="21"/>
 <wire x1="-5.7" y1="-20.1" x2="-5.7" y2="-20.4" width="0.127" layer="21"/>
 <wire x1="-5.7" y1="-20.4" x2="-5" y2="-20.4" width="0.127" layer="21"/>
-<wire x1="-5" y1="-20.4" x2="-5" y2="-21" width="0.127" layer="21"/>
-<wire x1="-5" y1="-21" x2="-5.7" y2="-21" width="0.127" layer="21"/>
-<wire x1="-5.7" y1="-21" x2="-5.7" y2="-32.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-20.4" x2="-5" y2="-22.1" width="0.127" layer="21"/>
+<wire x1="-5" y1="-22.1" x2="-5.7" y2="-22.1" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-22.1" x2="-5.7" y2="-32.5" width="0.127" layer="21"/>
 <wire x1="5.7" y1="-20.1" x2="5.7" y2="-20.4" width="0.127" layer="21"/>
 <wire x1="5.7" y1="-20.4" x2="5" y2="-20.4" width="0.127" layer="21"/>
-<wire x1="5" y1="-20.4" x2="5" y2="-21" width="0.127" layer="21"/>
-<wire x1="5" y1="-21" x2="6.3" y2="-21" width="0.127" layer="21"/>
-<wire x1="6.3" y1="-21" x2="6.3" y2="-28" width="0.127" layer="21"/>
+<wire x1="5" y1="-20.4" x2="5" y2="-22.1" width="0.127" layer="21"/>
+<wire x1="5" y1="-22.1" x2="6.3" y2="-22.1" width="0.127" layer="21"/>
+<wire x1="6.3" y1="-22.1" x2="6.3" y2="-28" width="0.127" layer="21"/>
 <wire x1="6.3" y1="-28" x2="5.7" y2="-29" width="0.127" layer="21"/>
 <wire x1="5.7" y1="-29" x2="5.7" y2="-32.5" width="0.127" layer="21"/>
 <wire x1="5.7" y1="-32.5" x2="4.7" y2="-32.5" width="0.127" layer="21"/>
@@ -152,6 +152,11 @@
 <text x="-3.175" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-17.8" y1="0" x2="-6.8" y2="-16.4" width="0.127" layer="21" curve="67.380135"/>
 <wire x1="17.8" y1="0" x2="6.8" y2="-16.4" width="0.127" layer="21" curve="-67.380135"/>
+<wire x1="-5.7" y1="-19.9" x2="-5" y2="-19.9" width="0.1524" layer="21"/>
+<wire x1="-5" y1="-19.9" x2="-5" y2="-21" width="0.1524" layer="21"/>
+<wire x1="-5" y1="-21" x2="3.1" y2="-21" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="-21" x2="3.1" y2="-19.9" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="-19.9" x2="6.3" y2="-19.9" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
