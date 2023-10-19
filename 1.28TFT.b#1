@@ -467,10 +467,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/3" value="10u" x="7.493" y="14.478" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.793" y="13.078" size="0.6" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="8.793" y="12.878" size="0.6" layer="27" font="vector" rot="R90"/>
-<attribute name="VOLTAGE" value="" x="60.833" y="34.798" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/3" value="10u" x="7.874" y="14.478" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.174" y="13.078" size="0.6" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="9.174" y="12.878" size="0.6" layer="27" font="vector" rot="R90"/>
+<attribute name="VOLTAGE" value="" x="61.214" y="34.798" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C6" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/3" value="0.1u" x="5.461" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.761" y="13.078" size="0.6" layer="25" font="vector" rot="R90"/>
@@ -540,9 +540,9 @@ design rules under a new name.</description>
 <contactref element="M1" pad="3"/>
 <via x="5.588" y="4.572" extent="1-16" drill="0.35"/>
 <wire x1="13.372" y1="20.998" x2="12.672" y2="20.998" width="0" layer="19" extent="1-1"/>
-<wire x1="7.493" y1="13.651" x2="12.672" y2="20.998" width="0" layer="19" extent="1-1"/>
-<wire x1="5.461" y1="13.651" x2="7.493" y2="13.651" width="0" layer="19" extent="1-1"/>
-<wire x1="7.366" y1="8.571" x2="7.493" y2="13.651" width="0" layer="19" extent="1-1"/>
+<wire x1="7.874" y1="13.651" x2="12.672" y2="20.998" width="0" layer="19" extent="1-1"/>
+<wire x1="5.461" y1="13.651" x2="7.874" y2="13.651" width="0" layer="19" extent="1-1"/>
+<wire x1="7.366" y1="8.571" x2="7.874" y2="13.651" width="0" layer="19" extent="1-1"/>
 <wire x1="5.588" y1="4.572" x2="7.366" y2="8.571" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
@@ -562,9 +562,9 @@ design rules under a new name.</description>
 <wire x1="15.494" y1="15.178" x2="15.559" y2="17.526" width="0" layer="19" extent="1-1"/>
 <wire x1="13.335" y1="15.178" x2="15.494" y2="15.178" width="0" layer="19" extent="1-1"/>
 <wire x1="7.072" y1="20.998" x2="11.272" y2="20.998" width="0" layer="19" extent="1-1"/>
-<wire x1="7.493" y1="15.305" x2="13.335" y2="15.178" width="0" layer="19" extent="1-1"/>
-<wire x1="5.461" y1="15.305" x2="7.493" y2="15.305" width="0" layer="19" extent="1-1"/>
-<wire x1="7.366" y1="4.572" x2="7.493" y2="15.305" width="0" layer="19" extent="1-1"/>
+<wire x1="7.874" y1="15.305" x2="13.335" y2="15.178" width="0" layer="19" extent="1-1"/>
+<wire x1="5.461" y1="15.305" x2="7.874" y2="15.305" width="0" layer="19" extent="1-1"/>
+<wire x1="7.366" y1="4.572" x2="7.874" y2="15.305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D/C">
 <contactref element="R12" pad="P$2"/>
