@@ -266,11 +266,11 @@
 <wire x1="4.7" y1="-29.88" x2="4.7" y2="-31.88" width="0.127" layer="21"/>
 <circle x="0" y="0.62" radius="16.2" width="0.127" layer="21"/>
 <text x="-2.921" y="0.747" size="1.27" layer="25">&gt;NAME</text>
-<hole x="-4.7" y="-27.38" drill="1"/>
-<hole x="5.3" y="-27.38" drill="1"/>
 <text x="-3.175" y="-2.936" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-17.8" y1="0.62" x2="-6.8" y2="-15.78" width="0.127" layer="21" curve="67.380135"/>
 <wire x1="17.8" y1="0.62" x2="6.8" y2="-15.78" width="0.127" layer="21" curve="-67.380135"/>
+<circle x="-4.7" y="-27.4" radius="0.5" width="0" layer="21"/>
+<circle x="5.3" y="-27.4" radius="0.5" width="0" layer="21"/>
 </package>
 </packages>
 </library>
